@@ -1,0 +1,58 @@
+:host {
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+}
+.h2 {
+  text-align: center;
+  color: hsla(var(--ig-primary-700));
+  z-index: 1;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 4.982622668909902px;
+  position: fixed;
+  width: 698px;
+  height: max-content;
+  min-width: min-content;
+  max-width: 698px;
+}
+.image {
+  object-fit: cover;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 395px;
+  position: absolute;
+  width: 435px;
+  height: 494px;
+  min-width: 0;
+  min-height: 0;
+  max-width: 435px;
+  max-height: 494px;
+  flex-shrink: 0;
+}
+.button {
+  --igx-button-foreground: hsla(var(--ig-secondary-400));
+  --igx-button-background: transparent;
+  z-index: 1;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 303.3672924871421px;
+  position: fixed;
+  height: max-content;
+}
+.button_1 {
+  --igx-button-foreground: hsla(var(--ig-secondary-400));
+  --igx-button-background: transparent;
+  z-index: 1;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 369.58291455110725px;
+  position: fixed;
+  width: 152px;
+  height: max-content;
+  min-width: 152px;
+  max-width: 152px;
+  flex-shrink: 0;
+}

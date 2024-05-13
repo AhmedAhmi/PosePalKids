@@ -1,0 +1,18 @@
+<h3 class="h3">
+  Recording in Progress.....
+</h3>
+<button igxButton="contained" igxRipple routerLink="/welc" class="button">
+  Restart Recording 
+</button>
+<button igxButton="contained" igxRipple routerLink="/analysis" class="button_1">
+  Stop Recording 
+</button>
+<igx-select type="border" class="select">
+  <igx-select-item value="Option" *ngFor="let item of northwindCategories">
+    Watching TV
+  </igx-select-item>
+  <igx-select-item value="Option" *ngFor="let item of northwindCategories">
+    Using Tablet
+  </igx-select-item>
+  <label igxLabel>Choose a Mode</label>
+</igx-select>
